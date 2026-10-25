@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans+Flex:wght@100..900&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff8f8;
+
+    background-image:
+        radial-gradient(
+            ellipse at 10% 5%,
+            rgba(255, 140, 190, 0.65),
+            transparent 55%),
+        radial-gradient(
+            ellipse at 85% 95%,
+            rgba(179, 147, 233, 0.573),
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at 55% 5%,
+            rgba(255, 214, 199, 0.466),
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at 15% 85%,
+            rgba(94, 166, 197, 0.473),
+            transparent 45%
+        );
+
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+
+h1, h2, h3, p {
+    font-family: 'Fraunces', serif;
+}
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding: 10px;
+
+}
+
+nav a{
+    font-family: 'Google Sans Flex', serif;
+    color:rgba(7, 7, 7, 0.692);
+    text-decoration: none;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(10px);
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+h1{
+    text-align: center;
+}
+
+#intro{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 7rem;
+    position: relative;
+    flex-direction: column;
+    
+}
+
+.name{
+    font-size: 4rem;
+    color:rgba(245, 44, 134, 0.393);
+    margin-bottom: 5px;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+    color: rgba(250, 95, 165, 0.406);
+}
+
