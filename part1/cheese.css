@@ -1,0 +1,59 @@
+/* Name: Kenia Roman Ortiz Repo URL: https://github.com/kenia-roman/CSE134b-HW3 */ 
+
+body{ 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:pink;
+    line-height: normal;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+h1{ 
+    font-size: 2rem;
+}
+
+h2{ 
+    font-size: 1rem;
+}
+
+.latin{
+    font-style: italic;
+}
+
+#warning{
+    background-color: blueviolet;
+}
+
+blockquote{
+    border: 2px solid black;
+    padding: 1rem; 
+    margin: 1rem;
+}
+
+a:hover {
+    color:red;
+    text-decoration: underline dotted;
+
+}
+
+a:focus,
+input:focus,
+button:focus {
+    outline: 3px solid #55fab2;
+    outline-offset: 3px;
+    border-radius: 4px;
+}
+
+p:hover{
+    color:blue;
+}
+
+/*The second rule wins over the first one becuase they both 
+have the same specificty, so CSS applies the rule that appears 
+later in the stylesheet*/
+
+p:hover{
+    color:palevioletred;
+}
+
